@@ -11,6 +11,28 @@ This is the first in a series of in-depth documentation sites created by [Eclipt
 
 We're hoping to demystify some of the most outstanding tools in the front end ecosystem, and help teams get up to speed quickly on effective architectures.
 
+## Installation
+
+Install with Yarn:
+
+```sh
+$ yarn add recompose
+```
+
+Install with npm:
+
+```sh
+$ npm install --save recompose
+```
+
+Import individual functions:
+
+```js
+import {compose, withProps} from 'recompose'
+```
+
+See the "Use Cases" in the Table of Contents to learn more!
+
 ## Why Recompose?
 
 One of the great strengths of React and JSX is the way it allows you to separate concerns in your user interface in a more modular and obvious way. Instead of grouping together all of your styles and all of your markup and all of your behavior - you can separate your application into easily understandable components that include only the markup, style, and behavior they need in one easy-to-maintain place.

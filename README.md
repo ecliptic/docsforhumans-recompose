@@ -1,4 +1,4 @@
-# ![](/assets/Recompose.svg)
+# <img src="assets/Recompose.svg" width="100%" height=200 />
 
 # Recompose
 

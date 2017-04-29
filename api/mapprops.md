@@ -1,6 +1,6 @@
 # mapProps
 
-Replaces the current props with whatever the given function returns.
+Replaces the current props with whatever the given function returns. This means that it disregards the incoming props and completely replaces them with the outgoing props. This is different from [`withProps`](api/withprops.md), which merges the outgoing props into the incoming props.
 
 **Flow type:**
 

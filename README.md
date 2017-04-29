@@ -2,5 +2,7 @@
 
 # Recompose
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Recompose is a toolkit for creating composable pipelines of higher order components. It allows you to easily separate your logic from your components, creating re-usable building blocks to drive the your presentational components on any platform React supports.
+
+
 

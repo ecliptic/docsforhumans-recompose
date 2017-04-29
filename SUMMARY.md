@@ -1,9 +1,27 @@
 # Summary
 
-## Overview
+## Introduction
 
-* [My Awesome API](README.md)
+* [Getting Started](README.md)
 
-## Methods
+## Use Cases
 
-* [Defining Methods](methods.md)
+* [Manipulating Props](methods.md)
+* Local State
+* Handling Events
+* Lifecycle Methods
+* Dynamic Rendering
+* [Managing Performance](managing-performance.md)
+* [Manipulating Context](manipulating-context.md)
+
+## API
+
+* mapProps
+* withProps
+
+## Recipes
+
+* Using with Redux
+* Using with React Native
+* Using with Styled Components
+

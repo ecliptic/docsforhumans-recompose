@@ -1,4 +1,4 @@
-# <img src="assets/Recompose.svg" width="100%" height=200 />
+<img src="assets/Recompose.svg" width="100%" height=200 />
 
 # Recompose
 

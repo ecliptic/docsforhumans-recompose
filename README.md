@@ -1,4 +1,5 @@
-<img src="assets/recompose.png" width="100%" height=400 />
+<div style="text-align: center;"><img src="assets/recompose.png"  />
+</div>
 
 # Recompose
 
@@ -6,4 +7,4 @@
 
 Recompose was created by [Andrew Clark](https://github.com/acdlite), and you can find more information about it on [the official repository](https://github.com/acdlite/recompose).
 
-## Why?
+## Why?__

@@ -2,13 +2,24 @@
 
 Replaces the current props with whatever the given function returns.
 
+**Flow type:**
+
 ```js
-type mapProps = (propsMapper: (ownerProps: Object) => Object): HigherOrderComponent
+type mapProps = (
+  propsMapper: (ownerProps: Object) => Object
+) => HigherOrderComponent
+```
+
+**PureScript type:**
+
+```purescript
+mapProps :: forall ownerProps props.
+  (ownerProps -> props) -> HigherOrderComponent ownerProps props
 ```
 
 ## Examples
 
-### Replacing Props
+### Replacing props
 
 ```js
 mapProps(props => {
@@ -18,7 +29,7 @@ mapProps(props => {
 })
 ```
 
-*Incoming Props*
+**Incoming Props**
 
 ```js
 {
@@ -27,10 +38,23 @@ mapProps(props => {
 }
 ```
 
-*Outgoing Props*
+**Outgoing Props**
 
 ```js
 {
   total: 15,
 }
+```
+### Deriving other mappers
+
+You can easily derive other mappers the same way you compose functions in functional programming:
+
+```js
+const omitProps = keys => mapProps(props => omit(keys, props))
+```
+
+If you're using Ramda or Lodash-FP, the following expression is equivalent because of currying:
+
+```js
+const omitProps = compose(mapProps, omit)
 ```

@@ -1,4 +1,4 @@
-<div style="text-align: center;"><img src="assets/recompose.png"  />
+<div style="text-align: center;"><img align="center" src="assets/recompose.png"  />
 </div>
 
 # Docs for Humans: Recompose

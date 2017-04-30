@@ -6,14 +6,14 @@ Replaces the current props with whatever the given function returns. This means 
 
 ```js
 type mapProps = (
-  propsMapper: (ownerProps: Object) => Object
+  propsMapper: (inProps: Object) => Object
 ) => HigherOrderComponent
 ```
 
 **PureScript type:**
 
 ```haskell
-mapProps :: forall ownerProps props.
+mapProps :: forall inProps outProps.
   (ownerProps -> props) -> HigherOrderComponent ownerProps props
 ```
 

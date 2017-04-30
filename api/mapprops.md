@@ -12,7 +12,7 @@ type mapProps = (
 
 **PureScript type:**
 
-```purescript
+```haskell
 mapProps :: forall ownerProps props.
   (ownerProps -> props) -> HigherOrderComponent ownerProps props
 ```

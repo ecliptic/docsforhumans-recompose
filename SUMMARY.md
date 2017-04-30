@@ -18,6 +18,7 @@
 
 * [mapProps](api/mapprops.md)
 * [withProps](api/withprops.md)
+* [withPropsOnChange](api/withpropsonchange.md)
 
 ## Recipes
 

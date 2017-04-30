@@ -14,7 +14,7 @@ type mapProps = (
 
 ```haskell
 mapProps :: forall inProps outProps.
-  (ownerProps -> props) -> HigherOrderComponent ownerProps props
+  (ownerProps -> props) -> HigherOrderComponent inProps outProps
 ```
 
 ## Examples

@@ -7,8 +7,8 @@
 ## Use Cases
 
 * [Manipulating Props](methods.md)
-* [Local State](local-state.md)
 * [Handling Events](handling-events.md)
+* [Local State](local-state.md)
 * [Lifecycle Methods](lifecycle-methods.md)
 * [Dynamic Rendering](dynamic-rendering.md)
 * [Managing Performance](managing-performance.md)
@@ -19,6 +19,7 @@
 * [mapProps](api/mapprops.md)
 * [withProps](api/withprops.md)
 * [withPropsOnChange](api/withpropsonchange.md)
+* [withState](api/withstate.md)
 
 ## Recipes
 

@@ -14,7 +14,12 @@ Recompose makes it easy to build that logic into reusable higher-order component
 // formUtils.js
 import {withProps} from 'recompose'
 
-export const withSelectedText = withProps(props => {
+type Props = {
+  choices: Array<{text: string, value: string}>,
+  selected: string,
+}
+
+export const withSelectedText = withProps((props: Props) => {
   const choice = props.choices[props.selected]
   const selectedText = choice
     ? choice.text
@@ -38,6 +43,10 @@ function SelectedText (props: Props) {
     <div>{selectedText}</div>
   )
 }
+
+export default compose(
+  withSelectedText,
+)(SelectedText)
 ```
 
 **Incoming props**

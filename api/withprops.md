@@ -15,7 +15,7 @@ type withProps = (
 ### Adding props
 
 ```js
-mapProps(props => {
+withProps(props => {
   return {
     total: props.initialValue + props.change,
   }
@@ -40,3 +40,6 @@ mapProps(props => {
   total: 15,
 }
 ```
+
+
+

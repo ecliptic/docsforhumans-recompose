@@ -2,19 +2,12 @@
 
 Merges the current props with whatever the given function returns. This is different from [`mapProps`](api/withprops.md) because it doesn't disregard the incoming props. It merges the outgoing props into the incoming props.
 
-**Flow type:**
+## Flow Type
 
 ```js
 type withProps = (
   propsMapper: (ownerProps: Object) => Object
 ) => HigherOrderComponent
-```
-
-**PureScript type:**
-
-```purescript
-withProps :: forall ownerProps props.
-  (ownerProps -> props) -> HigherOrderComponent ownerProps props
 ```
 
 ## Examples
@@ -29,7 +22,7 @@ mapProps(props => {
 })
 ```
 
-**Incoming Props**
+**Incoming props**
 
 ```js
 {
@@ -38,7 +31,7 @@ mapProps(props => {
 }
 ```
 
-**Outgoing Props**
+**Outgoing props**
 
 ```js
 {

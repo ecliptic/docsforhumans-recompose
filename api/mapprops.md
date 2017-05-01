@@ -2,19 +2,12 @@
 
 Replaces the current props with whatever the given function returns. This means that it disregards the incoming props and completely replaces them with the outgoing props. This is different from [`withProps`](api/withprops.md), which merges the outgoing props into the incoming props.
 
-**Flow type:**
+## Flow Type
 
 ```js
 type mapProps = (
-  propsMapper: (inProps: Object) => Object
+  propsMapper: (ownerProps: Object) => Object
 ) => HigherOrderComponent
-```
-
-**PureScript type:**
-
-```haskell
-mapProps :: forall inProps outProps.
-  (ownerProps -> props) -> HigherOrderComponent inProps outProps
 ```
 
 ## Examples
@@ -29,7 +22,7 @@ mapProps(props => {
 })
 ```
 
-**Incoming Props**
+**Incoming props**
 
 ```js
 {
@@ -38,7 +31,7 @@ mapProps(props => {
 }
 ```
 
-**Outgoing Props**
+**Outgoing props**
 
 ```js
 {

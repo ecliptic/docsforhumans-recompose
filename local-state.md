@@ -126,5 +126,5 @@ export default compose(
 
 For more details on managing local state with Recompose, take a look at the API docs for the following utilities:
 
-[`withState`](api/withstate.md)
-[`withReducer`](api/withreducer.md)
+* [`withState`](api/withstate.md)
+* [`withReducer`](api/withreducer.md)

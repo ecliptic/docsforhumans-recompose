@@ -17,6 +17,7 @@
 ## API
 
 * [mapProps](api/mapprops.md)
+* [withHandlers](withhandlers.md)
 * [withProps](api/withprops.md)
 * [withPropsOnChange](api/withpropsonchange.md)
 * [withState](api/withstate.md)

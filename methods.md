@@ -84,7 +84,7 @@ export default compose(
 
 ## API
 
-For more details, visit the API documentation for each of the following higher-order function creators:
+For more details, visit the API documentation for each of the following higher-order component creators:
 
 * [`mapProps`](api/mapprops.md)
 * [`withProps`](api/withprops.md)

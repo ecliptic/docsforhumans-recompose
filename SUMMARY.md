@@ -3,6 +3,7 @@
 ## Introduction
 
 * [Getting Started](README.md)
+* [Core Concepts](core-concepts.md)
 
 ## Use Cases
 

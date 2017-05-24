@@ -1,3 +1,0 @@
-# Manipulating Context
-
-...coming soon!

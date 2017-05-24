@@ -1,3 +1,0 @@
-# Dynamic Rendering
-
-...coming soon!
